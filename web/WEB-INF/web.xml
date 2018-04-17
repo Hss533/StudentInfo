@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>per.hss.web.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/per.hss.web/HelloServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+
+        <servlet-name>Login</servlet-name>
+        <servlet-class>per.hss.web.Login</servlet-class>s
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>GradeList</servlet-name>
+        <servlet-class>per.hss.web.GradeList</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GradeList</servlet-name>
+        <url-pattern>/GradeList</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Test</servlet-name>
+        <servlet-class>per.hss.test.Test</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Test</servlet-name>
+        <url-pattern>/Test</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>GradeDelete</servlet-name>
+        <servlet-class>per.hss.web.GradeDelete</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GradeDelete</servlet-name>
+        <url-pattern>/GradeDelete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GradeAdd</servlet-name>
+        <servlet-class>per.hss.web.GradeAdd</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GradeAdd</servlet-name>
+        <url-pattern>/GradeAdd</url-pattern>
+    </servlet-mapping>
+</web-app>
